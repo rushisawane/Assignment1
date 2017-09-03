@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  name = 'Angular';
+  clearData()
+  {
+    console.log("Inside clearData");
+    this.name = '';
+  }
 }
